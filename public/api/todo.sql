@@ -6,6 +6,6 @@ CREATE TABLE `todo` (
   `sort` int(11) NOT NULL,
   `todoStatu` tinyint(2) NOT NULL,
   `addDate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `completDate` datetime NOT NULL,
+  `completDate` datetime NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
