@@ -6,7 +6,6 @@ PHP 7 script that adds a REST API to a MySQL 5.5 InnoDB database
 
 Related projects:
 
-[React todoApp](https://github.com/jamalhassouni/todoApp)
 This is a sample todo App written by React js and php
 
 ### Requirements
@@ -26,17 +25,6 @@ Test the script by opening the following URL:
 `http://localhost:8080/index.php/`
 
 Don't forget to modify the configuration at the bottom of the file.
-
-## Configuration
-
-Edit the following lines in the bottom of the file "config/Database.php":
-
-```php
-    private $host = 'xxx';
-    private $db_name = 'xxx';
-    private $username = 'xxx';
-    private $password = 'xxx';
-```
 
 ### CRUD + List
 
